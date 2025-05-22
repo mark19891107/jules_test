@@ -162,6 +162,29 @@ public class Todo {
 
 ---
 
+## 🐳 Docker Support
+
+This project includes Docker support for the backend service.
+
+### Building the Docker Image
+
+To build the Docker image for the backend, navigate to the `todo-backend` directory and run:
+
+```bash
+docker build -t todo-backend .
+```
+
+### Running the Docker Container
+
+Once the image is built, you can run the backend service in a Docker container:
+
+```bash
+docker run -p 8080:8080 todo-backend
+```
+
+This will start the Spring Boot application, and it will be accessible on port 8080 of your host machine.
+---
+
 是否需要我幫你接著生成：
 
 * Spring Boot 專案的基本骨架？
